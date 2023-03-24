@@ -11,6 +11,5 @@ let package = Package(
     ],
     targets: [
         .target(name: "ActionsErrorDemoDependency")
-    ],
-    cxxLanguageStandard: .cxx11
+    ]
 )
