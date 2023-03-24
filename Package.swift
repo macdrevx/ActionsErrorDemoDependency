@@ -10,9 +10,7 @@ let package = Package(
             targets: ["ActionsErrorDemoDependency"]),
     ],
     targets: [
-        .target(
-            name: "ActionsErrorDemoDependency",
-            publicHeadersPath: "public")
+        .target(name: "ActionsErrorDemoDependency")
     ],
     cxxLanguageStandard: .cxx11
 )
